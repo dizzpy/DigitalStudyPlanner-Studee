@@ -90,6 +90,9 @@
     <None Include="Resources\Images\dashboard-icons\task.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Images\dashboard-icons\events.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\Images\dashboard-icons\timer.png" />
   </ItemGroup>
   <ItemGroup>
