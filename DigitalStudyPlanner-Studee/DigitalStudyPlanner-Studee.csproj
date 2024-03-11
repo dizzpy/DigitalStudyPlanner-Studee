@@ -98,5 +98,14 @@
   <ItemGroup>
     <None Include="Resources\Images\dashboard-icons\notes.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\dashboard-icons\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\dashboard-icons\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\dashboard-icons\logout.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
