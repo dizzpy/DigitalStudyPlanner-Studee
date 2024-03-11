@@ -62,6 +62,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Views\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
@@ -81,7 +82,18 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Resources\Images\dashboard-icons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\dashboard-icons\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\dashboard-icons\task.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\dashboard-icons\timer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Images\dashboard-icons\notes.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
