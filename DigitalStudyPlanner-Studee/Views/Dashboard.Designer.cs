@@ -54,6 +54,21 @@
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -61,6 +76,10 @@
             this.panel4.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
+            this.guna2Panel3.SuspendLayout();
+            this.guna2Panel4.SuspendLayout();
+            this.guna2Panel5.SuspendLayout();
+            this.guna2Panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -325,6 +344,12 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.Controls.Add(this.guna2Panel6);
+            this.panel4.Controls.Add(this.label13);
+            this.panel4.Controls.Add(this.guna2Panel5);
+            this.panel4.Controls.Add(this.label11);
+            this.panel4.Controls.Add(this.guna2Panel4);
+            this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.guna2Panel3);
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.guna2Panel2);
@@ -444,7 +469,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Poppins Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
-            this.label7.Location = new System.Drawing.Point(5, 160);
+            this.label7.Location = new System.Drawing.Point(5, 169);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(330, 34);
             this.label7.TabIndex = 6;
@@ -453,13 +478,199 @@
             // guna2Panel3
             // 
             this.guna2Panel3.BorderRadius = 12;
+            this.guna2Panel3.Controls.Add(this.label9);
+            this.guna2Panel3.Controls.Add(this.label8);
             this.guna2Panel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(252)))), ((int)(((byte)(246)))));
-            this.guna2Panel3.Location = new System.Drawing.Point(11, 197);
+            this.guna2Panel3.Location = new System.Drawing.Point(11, 210);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Padding = new System.Windows.Forms.Padding(5);
+            this.guna2Panel3.Padding = new System.Windows.Forms.Padding(10);
             this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
             this.guna2Panel3.Size = new System.Drawing.Size(951, 118);
             this.guna2Panel3.TabIndex = 6;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Poppins Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(156)))), ((int)(((byte)(116)))));
+            this.label8.Location = new System.Drawing.Point(28, 26);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(739, 34);
+            this.label8.TabIndex = 7;
+            this.label8.Text = "\"You are never too old to set another goal or to dream a new dream.\"\r\n";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Poppins Light", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(156)))), ((int)(((byte)(116)))));
+            this.label9.Location = new System.Drawing.Point(28, 60);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(118, 34);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "- C.S. Lewis";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Poppins Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
+            this.label10.Location = new System.Drawing.Point(5, 348);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(75, 34);
+            this.label10.TabIndex = 7;
+            this.label10.Text = "Timer";
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.BorderRadius = 12;
+            this.guna2Panel4.Controls.Add(this.guna2Button2);
+            this.guna2Panel4.Controls.Add(this.guna2Button1);
+            this.guna2Panel4.Controls.Add(this.label17);
+            this.guna2Panel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(252)))), ((int)(((byte)(246)))));
+            this.guna2Panel4.Location = new System.Drawing.Point(9, 394);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.Padding = new System.Windows.Forms.Padding(10);
+            this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
+            this.guna2Panel4.Size = new System.Drawing.Size(468, 288);
+            this.guna2Panel4.TabIndex = 9;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Poppins Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
+            this.label11.Location = new System.Drawing.Point(486, 348);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(142, 34);
+            this.label11.TabIndex = 10;
+            this.label11.Text = "Recent Note";
+            // 
+            // guna2Panel5
+            // 
+            this.guna2Panel5.BorderRadius = 12;
+            this.guna2Panel5.Controls.Add(this.label14);
+            this.guna2Panel5.Controls.Add(this.label12);
+            this.guna2Panel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(252)))), ((int)(((byte)(246)))));
+            this.guna2Panel5.Location = new System.Drawing.Point(494, 394);
+            this.guna2Panel5.Name = "guna2Panel5";
+            this.guna2Panel5.Padding = new System.Windows.Forms.Padding(10);
+            this.guna2Panel5.ShadowDecoration.Parent = this.guna2Panel5;
+            this.guna2Panel5.Size = new System.Drawing.Size(468, 138);
+            this.guna2Panel5.TabIndex = 10;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Poppins Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(156)))), ((int)(((byte)(116)))));
+            this.label12.Location = new System.Drawing.Point(13, 11);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(150, 34);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "Lorem ipsum";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Poppins Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
+            this.label13.Location = new System.Drawing.Point(878, 351);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(84, 28);
+            this.label13.TabIndex = 11;
+            this.label13.Text = "See More";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Poppins Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(156)))), ((int)(((byte)(116)))));
+            this.label14.Location = new System.Drawing.Point(17, 44);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(425, 84);
+            this.label14.TabIndex = 10;
+            this.label14.Text = "It is a long established fact that a reader will be\r\ndistracted by the readable c" +
+    "ontent of a pa ge when\r\nlooking at its layout.The point of using Lorem ";
+            // 
+            // guna2Panel6
+            // 
+            this.guna2Panel6.BorderRadius = 12;
+            this.guna2Panel6.Controls.Add(this.label15);
+            this.guna2Panel6.Controls.Add(this.label16);
+            this.guna2Panel6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(252)))), ((int)(((byte)(246)))));
+            this.guna2Panel6.Location = new System.Drawing.Point(494, 544);
+            this.guna2Panel6.Name = "guna2Panel6";
+            this.guna2Panel6.Padding = new System.Windows.Forms.Padding(10);
+            this.guna2Panel6.ShadowDecoration.Parent = this.guna2Panel6;
+            this.guna2Panel6.Size = new System.Drawing.Size(468, 138);
+            this.guna2Panel6.TabIndex = 11;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Poppins Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(156)))), ((int)(((byte)(116)))));
+            this.label15.Location = new System.Drawing.Point(17, 44);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(425, 84);
+            this.label15.TabIndex = 10;
+            this.label15.Text = "It is a long established fact that a reader will be\r\ndistracted by the readable c" +
+    "ontent of a pa ge when\r\nlooking at its layout.The point of using Lorem ";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Poppins Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(156)))), ((int)(((byte)(116)))));
+            this.label16.Location = new System.Drawing.Point(13, 11);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(150, 34);
+            this.label16.TabIndex = 9;
+            this.label16.Text = "Lorem ipsum";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Poppins Medium", 50F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(156)))), ((int)(((byte)(116)))));
+            this.label17.Location = new System.Drawing.Point(69, 54);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(348, 118);
+            this.label17.TabIndex = 11;
+            this.label17.Text = "00:00:00";
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.BorderRadius = 16;
+            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
+            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
+            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(156)))), ((int)(((byte)(116)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.HoverState.Parent = this.guna2Button1;
+            this.guna2Button1.Location = new System.Drawing.Point(117, 173);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
+            this.guna2Button1.Size = new System.Drawing.Size(120, 45);
+            this.guna2Button1.TabIndex = 12;
+            this.guna2Button1.Text = "Start";
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.BorderRadius = 16;
+            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
+            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
+            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(156)))), ((int)(((byte)(116)))));
+            this.guna2Button2.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.HoverState.Parent = this.guna2Button2;
+            this.guna2Button2.Location = new System.Drawing.Point(243, 173);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
+            this.guna2Button2.Size = new System.Drawing.Size(120, 45);
+            this.guna2Button2.TabIndex = 13;
+            this.guna2Button2.Text = "End";
             // 
             // Dashboard
             // 
@@ -486,6 +697,14 @@
             this.guna2Panel1.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            this.guna2Panel3.ResumeLayout(false);
+            this.guna2Panel3.PerformLayout();
+            this.guna2Panel4.ResumeLayout(false);
+            this.guna2Panel4.PerformLayout();
+            this.guna2Panel5.ResumeLayout(false);
+            this.guna2Panel5.PerformLayout();
+            this.guna2Panel6.ResumeLayout(false);
+            this.guna2Panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -518,5 +737,20 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label13;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label14;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private System.Windows.Forms.Label label17;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
     }
 }
