@@ -103,6 +103,16 @@ namespace DigitalStudyPlanner_Studee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap home1 {
+            get {
+                object obj = ResourceManager.GetObject("home1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logout {
             get {
                 object obj = ResourceManager.GetObject("logout", resourceCulture);
@@ -146,6 +156,16 @@ namespace DigitalStudyPlanner_Studee.Properties {
         internal static System.Drawing.Bitmap task {
             get {
                 object obj = ResourceManager.GetObject("task", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap task1 {
+            get {
+                object obj = ResourceManager.GetObject("task1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

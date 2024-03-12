@@ -44,9 +44,9 @@
             this.label_goodMorning = new System.Windows.Forms.Label();
             this.label_hello = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -87,6 +87,7 @@
             this.btn_logout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_logout.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(85)))));
+            this.btn_logout.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.logout;
             this.btn_logout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_logout.Location = new System.Drawing.Point(0, 114);
             this.btn_logout.Margin = new System.Windows.Forms.Padding(2);
@@ -106,6 +107,7 @@
             this.btn_setting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_setting.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_setting.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
+            this.btn_setting.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.settings;
             this.btn_setting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_setting.Location = new System.Drawing.Point(0, 57);
             this.btn_setting.Margin = new System.Windows.Forms.Padding(2);
@@ -125,6 +127,7 @@
             this.btn_profile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_profile.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_profile.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
+            this.btn_profile.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.profile;
             this.btn_profile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_profile.Location = new System.Drawing.Point(0, 0);
             this.btn_profile.Margin = new System.Windows.Forms.Padding(2);
@@ -169,6 +172,7 @@
             this.btn_noteLibrary.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_noteLibrary.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_noteLibrary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(209)))), ((int)(((byte)(172)))));
+            this.btn_noteLibrary.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.notes;
             this.btn_noteLibrary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_noteLibrary.Location = new System.Drawing.Point(0, 228);
             this.btn_noteLibrary.Margin = new System.Windows.Forms.Padding(2);
@@ -191,6 +195,7 @@
             this.btn_timer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_timer.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_timer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(209)))), ((int)(((byte)(172)))));
+            this.btn_timer.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.timer;
             this.btn_timer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_timer.Location = new System.Drawing.Point(0, 171);
             this.btn_timer.Margin = new System.Windows.Forms.Padding(2);
@@ -213,6 +218,7 @@
             this.btn_events.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_events.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_events.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(209)))), ((int)(((byte)(172)))));
+            this.btn_events.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.events;
             this.btn_events.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_events.Location = new System.Drawing.Point(0, 114);
             this.btn_events.Margin = new System.Windows.Forms.Padding(2);
@@ -235,6 +241,7 @@
             this.btn_toDoList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_toDoList.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_toDoList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(209)))), ((int)(((byte)(172)))));
+            this.btn_toDoList.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.task1;
             this.btn_toDoList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_toDoList.Location = new System.Drawing.Point(0, 57);
             this.btn_toDoList.Margin = new System.Windows.Forms.Padding(2);
@@ -257,6 +264,7 @@
             this.btn_dashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_dashboard.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_dashboard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(209)))), ((int)(((byte)(172)))));
+            this.btn_dashboard.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.home1;
             this.btn_dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_dashboard.Location = new System.Drawing.Point(0, 0);
             this.btn_dashboard.Margin = new System.Windows.Forms.Padding(2);
@@ -317,16 +325,6 @@
             this.panel4.Size = new System.Drawing.Size(974, 696);
             this.panel4.TabIndex = 1;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(335, 299);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(303, 51);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "DashBoard default";
-            // 
             // panel7
             // 
             this.panel7.Controls.Add(this.button1);
@@ -348,6 +346,16 @@
             this.button1.Text = "\r\n";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Poppins", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(335, 299);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(303, 51);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "DashBoard default";
             // 
             // Dashboard
             // 
