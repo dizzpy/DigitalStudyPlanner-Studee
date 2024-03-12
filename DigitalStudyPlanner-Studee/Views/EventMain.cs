@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DigitalStudyPlanner_Studee.Views
 {
-    public partial class Timer_Form : Form
+    public partial class EventMain : Form
     {
-        public Timer_Form()
+        public EventMain()
         {
             InitializeComponent();
         }

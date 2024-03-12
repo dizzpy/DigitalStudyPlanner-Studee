@@ -46,17 +46,17 @@ namespace DigitalStudyPlanner_Studee.Views
 
         private void btn_events_Click(object sender, EventArgs e)
         {
-            loadform(new Event_Form());
+            loadform(new EventMain());
         }
 
         private void btn_noteLibrary_Click(object sender, EventArgs e)
         {
-            loadform(new NoteLibrary_Form());
+            loadform(new NoteLibraryMain());
         }
 
         private void btn_timer_Click(object sender, EventArgs e)
         {
-            loadform(new Timer_Form());
+            loadform(new TimerMain());
         }
 
         private void panel7_Paint(object sender, PaintEventArgs e)

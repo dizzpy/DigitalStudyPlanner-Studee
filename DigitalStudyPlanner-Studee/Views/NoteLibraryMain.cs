@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DigitalStudyPlanner_Studee.Views
 {
-    public partial class NoteLibrary_Form : Form
+    public partial class NoteLibraryMain : Form
     {
-        public NoteLibrary_Form()
+        public NoteLibraryMain()
         {
             InitializeComponent();
         }

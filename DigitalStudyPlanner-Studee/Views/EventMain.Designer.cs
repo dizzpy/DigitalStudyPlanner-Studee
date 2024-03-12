@@ -1,6 +1,6 @@
 ﻿namespace DigitalStudyPlanner_Studee.Views
 {
-    partial class Event_Form
+    partial class EventMain
     {
         /// <summary>
         /// Required designer variable.

@@ -60,29 +60,29 @@
     <Compile Include="Views\Dashboard_Form.Designer.cs">
       <DependentUpon>Dashboard_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Event_Form.cs">
+    <Compile Include="Views\EventMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Event_Form.Designer.cs">
-      <DependentUpon>Event_Form.cs</DependentUpon>
+    <Compile Include="Views\EventMain.Designer.cs">
+      <DependentUpon>EventMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\NoteLibrary_Form.cs">
+    <Compile Include="Views\NoteLibraryMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\NoteLibrary_Form.Designer.cs">
-      <DependentUpon>NoteLibrary_Form.cs</DependentUpon>
+    <Compile Include="Views\NoteLibraryMain.Designer.cs">
+      <DependentUpon>NoteLibraryMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Timer_Form.cs">
+    <Compile Include="Views\TimerMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Timer_Form.Designer.cs">
-      <DependentUpon>Timer_Form.cs</DependentUpon>
+    <Compile Include="Views\TimerMain.Designer.cs">
+      <DependentUpon>TimerMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\TodoList_form.cs">
+    <Compile Include="Views\TodoListMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\TodoList_form.Designer.cs">
-      <DependentUpon>TodoList_form.cs</DependentUpon>
+    <Compile Include="Views\TodoListMain.Designer.cs">
+      <DependentUpon>TodoListMain.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -100,17 +100,17 @@
     <EmbeddedResource Include="Views\Dashboard_Form.resx">
       <DependentUpon>Dashboard_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Event_Form.resx">
-      <DependentUpon>Event_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Views\EventMain.resx">
+      <DependentUpon>EventMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\NoteLibrary_Form.resx">
-      <DependentUpon>NoteLibrary_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Views\NoteLibraryMain.resx">
+      <DependentUpon>NoteLibraryMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Timer_Form.resx">
-      <DependentUpon>Timer_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Views\TimerMain.resx">
+      <DependentUpon>TimerMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\TodoList_form.resx">
-      <DependentUpon>TodoList_form.cs</DependentUpon>
+    <EmbeddedResource Include="Views\TodoListMain.resx">
+      <DependentUpon>TodoListMain.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
