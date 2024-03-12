@@ -30,23 +30,23 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.btn_logout = new System.Windows.Forms.Button();
-            this.btn_setting = new System.Windows.Forms.Button();
-            this.btn_profile = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.btn_noteLibrary = new System.Windows.Forms.Button();
-            this.btn_timer = new System.Windows.Forms.Button();
-            this.btn_events = new System.Windows.Forms.Button();
-            this.btn_toDoList = new System.Windows.Forms.Button();
-            this.btn_dashboard = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label_goodMorning = new System.Windows.Forms.Label();
             this.label_hello = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btn_logout = new System.Windows.Forms.Button();
+            this.btn_setting = new System.Windows.Forms.Button();
+            this.btn_profile = new System.Windows.Forms.Button();
+            this.btn_noteLibrary = new System.Windows.Forms.Button();
+            this.btn_timer = new System.Windows.Forms.Button();
+            this.btn_events = new System.Windows.Forms.Button();
+            this.btn_toDoList = new System.Windows.Forms.Button();
+            this.btn_dashboard = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -79,6 +79,108 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(302, 176);
             this.panel5.TabIndex = 3;
+            // 
+            // panel6
+            // 
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 431);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(302, 64);
+            this.panel6.TabIndex = 4;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.btn_noteLibrary);
+            this.panel3.Controls.Add(this.btn_timer);
+            this.panel3.Controls.Add(this.btn_events);
+            this.panel3.Controls.Add(this.btn_toDoList);
+            this.panel3.Controls.Add(this.btn_dashboard);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 144);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(302, 287);
+            this.panel3.TabIndex = 2;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.label_goodMorning);
+            this.panel2.Controls.Add(this.label_hello);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(302, 144);
+            this.panel2.TabIndex = 1;
+            // 
+            // label_goodMorning
+            // 
+            this.label_goodMorning.AutoSize = true;
+            this.label_goodMorning.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_goodMorning.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
+            this.label_goodMorning.Location = new System.Drawing.Point(33, 87);
+            this.label_goodMorning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_goodMorning.Name = "label_goodMorning";
+            this.label_goodMorning.Size = new System.Drawing.Size(156, 24);
+            this.label_goodMorning.TabIndex = 2;
+            this.label_goodMorning.Text = "Good Morning !";
+            // 
+            // label_hello
+            // 
+            this.label_hello.AutoSize = true;
+            this.label_hello.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_hello.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
+            this.label_hello.Location = new System.Drawing.Point(28, 37);
+            this.label_hello.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_hello.Name = "label_hello";
+            this.label_hello.Size = new System.Drawing.Size(242, 44);
+            this.label_hello.TabIndex = 1;
+            this.label_hello.Text = "Hello Dizzpy";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Controls.Add(this.panel7);
+            this.panel4.Controls.Add(this.label1);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(302, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(974, 696);
+            this.panel4.TabIndex = 1;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.button1);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(974, 37);
+            this.panel7.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Poppins", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(335, 299);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(303, 51);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "DashBoard default";
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.Group_1991;
+            this.button1.Location = new System.Drawing.Point(937, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(30, 30);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "\r\n";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btn_logout
             // 
@@ -139,29 +241,7 @@
             this.btn_profile.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_profile.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_profile.UseVisualStyleBackColor = true;
-            // 
-            // panel6
-            // 
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(0, 431);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(302, 64);
-            this.panel6.TabIndex = 4;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.btn_noteLibrary);
-            this.panel3.Controls.Add(this.btn_timer);
-            this.panel3.Controls.Add(this.btn_events);
-            this.panel3.Controls.Add(this.btn_toDoList);
-            this.panel3.Controls.Add(this.btn_dashboard);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 144);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(302, 287);
-            this.panel3.TabIndex = 2;
+            this.btn_profile.Click += new System.EventHandler(this.btn_profile_Click);
             // 
             // btn_noteLibrary
             // 
@@ -277,85 +357,6 @@
             this.btn_dashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_dashboard.UseVisualStyleBackColor = true;
             this.btn_dashboard.Click += new System.EventHandler(this.btn_dashboard_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label_goodMorning);
-            this.panel2.Controls.Add(this.label_hello);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(302, 144);
-            this.panel2.TabIndex = 1;
-            // 
-            // label_goodMorning
-            // 
-            this.label_goodMorning.AutoSize = true;
-            this.label_goodMorning.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_goodMorning.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
-            this.label_goodMorning.Location = new System.Drawing.Point(33, 87);
-            this.label_goodMorning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label_goodMorning.Name = "label_goodMorning";
-            this.label_goodMorning.Size = new System.Drawing.Size(156, 24);
-            this.label_goodMorning.TabIndex = 2;
-            this.label_goodMorning.Text = "Good Morning !";
-            // 
-            // label_hello
-            // 
-            this.label_hello.AutoSize = true;
-            this.label_hello.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_hello.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
-            this.label_hello.Location = new System.Drawing.Point(28, 37);
-            this.label_hello.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label_hello.Name = "label_hello";
-            this.label_hello.Size = new System.Drawing.Size(242, 44);
-            this.label_hello.TabIndex = 1;
-            this.label_hello.Text = "Hello Dizzpy";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Controls.Add(this.panel7);
-            this.panel4.Controls.Add(this.label1);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(302, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(974, 696);
-            this.panel4.TabIndex = 1;
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.button1);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(974, 37);
-            this.panel7.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.Group_1991;
-            this.button1.Location = new System.Drawing.Point(939, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 30);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "\r\n";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(335, 299);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(303, 51);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "DashBoard default";
             // 
             // Dashboard
             // 
