@@ -67,35 +67,19 @@ namespace DigitalStudyPlanner_Studee.Views
             Application.Exit();
         }
 
+
+
+
         private void btn_profile_Click(object sender, EventArgs e)
         {
-            Form formBackground = new Form();
-            try
-            {
-                using (profile_Form uu = new profile_Form())
-                {
-                    formBackground.StartPosition = FormStartPosition.Manual;
-                    formBackground.FormBorderStyle = FormBorderStyle.None;
-                    formBackground.TopMost = true;
-                    formBackground.Location = this.Location;
-                    formBackground.ShowInTaskbar = false;
-                    formBackground.Show();
+            Form form1 = new profile_Form();
+            form1.Show();
+        }
 
-                    uu.Owner = formBackground;
-
-                    uu.ShowDialog();
-
-                    formBackground.Dispose();
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-            finally
-            {
-                formBackground.Dispose ();
-            }
+        private void btn_setting_Click(object sender, EventArgs e)
+        {
+            Form form2 = new Settings_Form();
+            form2.Show();
         }
     }
 }

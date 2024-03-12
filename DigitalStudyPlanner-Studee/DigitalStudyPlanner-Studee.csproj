@@ -78,6 +78,12 @@
     <Compile Include="Views\profile_Form.Designer.cs">
       <DependentUpon>profile_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Settings_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Settings_Form.Designer.cs">
+      <DependentUpon>Settings_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\TimerMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\profile_Form.resx">
       <DependentUpon>profile_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Settings_Form.resx">
+      <DependentUpon>Settings_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\TimerMain.resx">
       <DependentUpon>TimerMain.cs</DependentUpon>

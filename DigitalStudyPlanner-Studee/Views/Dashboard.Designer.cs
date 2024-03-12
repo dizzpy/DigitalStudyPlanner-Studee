@@ -221,6 +221,7 @@
             this.btn_setting.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_setting.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_setting.UseVisualStyleBackColor = true;
+            this.btn_setting.Click += new System.EventHandler(this.btn_setting_Click);
             // 
             // btn_profile
             // 
