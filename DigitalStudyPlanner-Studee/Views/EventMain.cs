@@ -16,5 +16,10 @@ namespace DigitalStudyPlanner_Studee.Views
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

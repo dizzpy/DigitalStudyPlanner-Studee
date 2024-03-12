@@ -59,9 +59,10 @@ namespace DigitalStudyPlanner_Studee.Views
             loadform(new TimerMain());
         }
 
-        private void panel7_Paint(object sender, PaintEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
     }
 }
+

@@ -152,5 +152,8 @@
   <ItemGroup>
     <None Include="Resources\Images\dashboard-icons\logout.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Images\other-icons\Group 199.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
