@@ -8,18 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DigitalStudyPlanner_Studee
+namespace DigitalStudyPlanner_Studee.Views
 {
-    public partial class Form1 : Form
+    public partial class EventMain : Form
     {
-        public Form1()
+        public EventMain()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
     }
 }
