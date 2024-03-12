@@ -44,10 +44,12 @@
             this.label_goodMorning = new System.Windows.Forms.Label();
             this.label_hello = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -58,7 +60,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(302, 696);
             this.panel1.TabIndex = 0;
@@ -70,7 +72,7 @@
             this.panel5.Controls.Add(this.btn_profile);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel5.Location = new System.Drawing.Point(0, 520);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(302, 176);
             this.panel5.TabIndex = 3;
@@ -85,7 +87,7 @@
             this.btn_logout.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.logout;
             this.btn_logout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_logout.Location = new System.Drawing.Point(0, 114);
-            this.btn_logout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_logout.Margin = new System.Windows.Forms.Padding(2);
             this.btn_logout.Name = "btn_logout";
             this.btn_logout.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
             this.btn_logout.Size = new System.Drawing.Size(302, 57);
@@ -105,7 +107,7 @@
             this.btn_setting.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.settings;
             this.btn_setting.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_setting.Location = new System.Drawing.Point(0, 57);
-            this.btn_setting.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_setting.Margin = new System.Windows.Forms.Padding(2);
             this.btn_setting.Name = "btn_setting";
             this.btn_setting.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
             this.btn_setting.Size = new System.Drawing.Size(302, 57);
@@ -125,7 +127,7 @@
             this.btn_profile.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.profile;
             this.btn_profile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_profile.Location = new System.Drawing.Point(0, 0);
-            this.btn_profile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_profile.Margin = new System.Windows.Forms.Padding(2);
             this.btn_profile.Name = "btn_profile";
             this.btn_profile.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
             this.btn_profile.Size = new System.Drawing.Size(302, 57);
@@ -139,7 +141,7 @@
             // 
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 431);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(302, 64);
             this.panel6.TabIndex = 4;
@@ -153,7 +155,7 @@
             this.panel3.Controls.Add(this.btn_dashboard);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 144);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(302, 287);
             this.panel3.TabIndex = 2;
@@ -170,7 +172,7 @@
             this.btn_noteLibrary.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.notes;
             this.btn_noteLibrary.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_noteLibrary.Location = new System.Drawing.Point(0, 228);
-            this.btn_noteLibrary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_noteLibrary.Margin = new System.Windows.Forms.Padding(2);
             this.btn_noteLibrary.Name = "btn_noteLibrary";
             this.btn_noteLibrary.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
             this.btn_noteLibrary.Size = new System.Drawing.Size(302, 57);
@@ -179,6 +181,7 @@
             this.btn_noteLibrary.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_noteLibrary.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_noteLibrary.UseVisualStyleBackColor = true;
+            this.btn_noteLibrary.Click += new System.EventHandler(this.btn_noteLibrary_Click);
             // 
             // btn_timer
             // 
@@ -192,7 +195,7 @@
             this.btn_timer.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.timer;
             this.btn_timer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_timer.Location = new System.Drawing.Point(0, 171);
-            this.btn_timer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_timer.Margin = new System.Windows.Forms.Padding(2);
             this.btn_timer.Name = "btn_timer";
             this.btn_timer.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
             this.btn_timer.Size = new System.Drawing.Size(302, 57);
@@ -201,6 +204,7 @@
             this.btn_timer.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_timer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_timer.UseVisualStyleBackColor = true;
+            this.btn_timer.Click += new System.EventHandler(this.btn_timer_Click);
             // 
             // btn_events
             // 
@@ -214,7 +218,7 @@
             this.btn_events.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.events;
             this.btn_events.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_events.Location = new System.Drawing.Point(0, 114);
-            this.btn_events.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_events.Margin = new System.Windows.Forms.Padding(2);
             this.btn_events.Name = "btn_events";
             this.btn_events.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
             this.btn_events.Size = new System.Drawing.Size(302, 57);
@@ -223,6 +227,7 @@
             this.btn_events.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_events.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_events.UseVisualStyleBackColor = true;
+            this.btn_events.Click += new System.EventHandler(this.btn_events_Click);
             // 
             // btn_toDoList
             // 
@@ -236,7 +241,7 @@
             this.btn_toDoList.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.task;
             this.btn_toDoList.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_toDoList.Location = new System.Drawing.Point(0, 57);
-            this.btn_toDoList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_toDoList.Margin = new System.Windows.Forms.Padding(2);
             this.btn_toDoList.Name = "btn_toDoList";
             this.btn_toDoList.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
             this.btn_toDoList.Size = new System.Drawing.Size(302, 57);
@@ -245,6 +250,7 @@
             this.btn_toDoList.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_toDoList.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_toDoList.UseVisualStyleBackColor = true;
+            this.btn_toDoList.Click += new System.EventHandler(this.btn_toDoList_Click);
             // 
             // btn_dashboard
             // 
@@ -258,7 +264,7 @@
             this.btn_dashboard.Image = global::DigitalStudyPlanner_Studee.Properties.Resources.home;
             this.btn_dashboard.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_dashboard.Location = new System.Drawing.Point(0, 0);
-            this.btn_dashboard.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_dashboard.Margin = new System.Windows.Forms.Padding(2);
             this.btn_dashboard.Name = "btn_dashboard";
             this.btn_dashboard.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
             this.btn_dashboard.Size = new System.Drawing.Size(302, 57);
@@ -267,6 +273,7 @@
             this.btn_dashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_dashboard.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_dashboard.UseVisualStyleBackColor = true;
+            this.btn_dashboard.Click += new System.EventHandler(this.btn_dashboard_Click);
             // 
             // panel2
             // 
@@ -274,7 +281,7 @@
             this.panel2.Controls.Add(this.label_hello);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(302, 144);
             this.panel2.TabIndex = 1;
@@ -305,12 +312,24 @@
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Controls.Add(this.label1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(302, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(974, 696);
             this.panel4.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Poppins", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(335, 299);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(303, 51);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "DashBoard default";
             // 
             // Dashboard
             // 
@@ -321,7 +340,7 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Dashboard";
@@ -331,6 +350,8 @@
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -353,5 +374,6 @@
         private System.Windows.Forms.Button btn_logout;
         private System.Windows.Forms.Button btn_setting;
         private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label1;
     }
 }
