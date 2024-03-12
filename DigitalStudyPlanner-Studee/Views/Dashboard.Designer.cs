@@ -284,7 +284,7 @@
             this.label_goodMorning.AutoSize = true;
             this.label_goodMorning.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_goodMorning.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
-            this.label_goodMorning.Location = new System.Drawing.Point(33, 93);
+            this.label_goodMorning.Location = new System.Drawing.Point(33, 87);
             this.label_goodMorning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_goodMorning.Name = "label_goodMorning";
             this.label_goodMorning.Size = new System.Drawing.Size(156, 24);
