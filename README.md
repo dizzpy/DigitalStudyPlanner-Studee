@@ -1,1 +1,1 @@
-##Studee-Digital Study Planner 
+Studee-Digital Study Planner 
