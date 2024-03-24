@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DigitalStudyPlanner_Studee.Views
 {
-    public partial class TodoList_Form : Form
+    public partial class TimerView : UserControl
     {
-        public TodoList_Form()
+        public TimerView()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

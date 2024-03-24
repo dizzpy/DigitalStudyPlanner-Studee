@@ -21,6 +21,7 @@ namespace DigitalStudyPlanner_Studee.Views
         }
 
 
+<<<<<<< Updated upstream
         //creating border radius
 
         private void SetRoundedCorners(Panel control, int radius)
@@ -55,32 +56,60 @@ namespace DigitalStudyPlanner_Studee.Views
 
 
         //dashboard Loadform
+=======
+
+>>>>>>> Stashed changes
         private void btn_dashboard_Click(object sender, EventArgs e)
         {
-            loadform(new Dashboard_Form());
+            dashboardView1.Show();
+            dashboardView1.BringToFront();
+            toDoListView1.Hide();   
+            eventsView1.Hide();
+            timerView1.Hide();
+            noteLibraryView1.Hide();
+
         }
 
         //Todo List Loadform
         private void btn_toDoList_Click(object sender, EventArgs e)
         {
-            loadform(new TodoList_Form());
+            toDoListView1.Show();
+            toDoListView1.BringToFront();
+            dashboardView1.Hide();
+            eventsView1.Hide();
+            timerView1.Hide();
+            noteLibraryView1.Hide();
         }
 
+<<<<<<< Updated upstream
         //Event Loadform
+=======
+>>>>>>> Stashed changes
         private void btn_events_Click(object sender, EventArgs e)
         {
-            loadform(new EventMain());
+            eventsView1.Show();
+            eventsView1.BringToFront();
+            dashboardView1.Hide();
+            toDoListView1.Hide();
+            timerView1.Hide();
+            noteLibraryView1.Hide();
         }
 
         //Note Library Loadform
         private void btn_noteLibrary_Click(object sender, EventArgs e)
         {
-            loadform(new NoteLibraryMain());
+            noteLibraryView1.Show();
+            noteLibraryView1.BringToFront();
+            dashboardView1.Hide();
+            eventsView1.Hide();
+            timerView1.Hide();
+            toDoListView1.Hide();
         }
 
         //Timer Loadform
         private void btn_timer_Click(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
             loadform(new TimerMain());
         }
 
@@ -90,6 +119,14 @@ namespace DigitalStudyPlanner_Studee.Views
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+=======
+            timerView1.Show();
+            timerView1.BringToFront();
+            dashboardView1.Hide();
+            eventsView1.Hide();
+            toDoListView1.Hide();
+            noteLibraryView1.Hide();
+>>>>>>> Stashed changes
         }
 
 
@@ -108,12 +145,24 @@ namespace DigitalStudyPlanner_Studee.Views
             form2.Show();
         }
 
+<<<<<<< Updated upstream
 
         //==============================================================
 
 
 
 
+=======
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            dashboardView1.Show();
+            dashboardView1.BringToFront();
+            toDoListView1.Hide();
+            eventsView1.Hide();
+            timerView1.Hide();
+            noteLibraryView1.Hide();
+        }
+>>>>>>> Stashed changes
     }
 }
 

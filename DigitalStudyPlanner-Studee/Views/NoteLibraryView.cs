@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DigitalStudyPlanner_Studee.Views
 {
-    public partial class EventMain : Form
+    public partial class NoteLibraryView : UserControl
     {
-        public EventMain()
+        public NoteLibraryView()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

@@ -62,23 +62,23 @@
     <Compile Include="Views\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Dashboard_Form.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Views\DashboardView.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Views\Dashboard_Form.Designer.cs">
-      <DependentUpon>Dashboard_Form.cs</DependentUpon>
+    <Compile Include="Views\DashboardView.Designer.cs">
+      <DependentUpon>DashboardView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\EventMain.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Views\EventsView.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Views\EventMain.Designer.cs">
-      <DependentUpon>EventMain.cs</DependentUpon>
+    <Compile Include="Views\EventsView.Designer.cs">
+      <DependentUpon>EventsView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\NoteLibraryMain.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Views\NoteLibraryView.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Views\NoteLibraryMain.Designer.cs">
-      <DependentUpon>NoteLibraryMain.cs</DependentUpon>
+    <Compile Include="Views\NoteLibraryView.Designer.cs">
+      <DependentUpon>NoteLibraryView.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\profile_Form.cs">
       <SubType>Form</SubType>
@@ -92,17 +92,17 @@
     <Compile Include="Views\Settings_Form.Designer.cs">
       <DependentUpon>Settings_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\TimerMain.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Views\TimerView.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Views\TimerMain.Designer.cs">
-      <DependentUpon>TimerMain.cs</DependentUpon>
+    <Compile Include="Views\TimerView.Designer.cs">
+      <DependentUpon>TimerView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\TodoListMain.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Views\ToDoListView.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Views\TodoListMain.Designer.cs">
-      <DependentUpon>TodoListMain.cs</DependentUpon>
+    <Compile Include="Views\ToDoListView.Designer.cs">
+      <DependentUpon>ToDoListView.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -117,14 +117,14 @@
     <EmbeddedResource Include="Views\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Dashboard_Form.resx">
-      <DependentUpon>Dashboard_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Views\DashboardView.resx">
+      <DependentUpon>DashboardView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\EventMain.resx">
-      <DependentUpon>EventMain.cs</DependentUpon>
+    <EmbeddedResource Include="Views\EventsView.resx">
+      <DependentUpon>EventsView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\NoteLibraryMain.resx">
-      <DependentUpon>NoteLibraryMain.cs</DependentUpon>
+    <EmbeddedResource Include="Views\NoteLibraryView.resx">
+      <DependentUpon>NoteLibraryView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\profile_Form.resx">
       <DependentUpon>profile_Form.cs</DependentUpon>
@@ -132,11 +132,11 @@
     <EmbeddedResource Include="Views\Settings_Form.resx">
       <DependentUpon>Settings_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\TimerMain.resx">
-      <DependentUpon>TimerMain.cs</DependentUpon>
+    <EmbeddedResource Include="Views\TimerView.resx">
+      <DependentUpon>TimerView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\TodoListMain.resx">
-      <DependentUpon>TodoListMain.cs</DependentUpon>
+    <EmbeddedResource Include="Views\ToDoListView.resx">
+      <DependentUpon>ToDoListView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
