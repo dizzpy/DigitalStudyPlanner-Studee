@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DigitalStudyPlanner_Studee.Views
 {
-    public partial class NoteLibraryMain : Form
+    public partial class ToDoListView : UserControl
     {
-        public NoteLibraryMain()
+        public ToDoListView()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }
