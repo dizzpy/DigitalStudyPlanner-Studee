@@ -62,48 +62,6 @@
     <Compile Include="Views\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Dashboard_Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\Dashboard_Form.Designer.cs">
-      <DependentUpon>Dashboard_Form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\EventMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\EventMain.Designer.cs">
-      <DependentUpon>EventMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\NoteLibraryMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\NoteLibraryMain.Designer.cs">
-      <DependentUpon>NoteLibraryMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\profile_Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\profile_Form.Designer.cs">
-      <DependentUpon>profile_Form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Settings_Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\Settings_Form.Designer.cs">
-      <DependentUpon>Settings_Form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\TimerMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\TimerMain.Designer.cs">
-      <DependentUpon>TimerMain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Views\TodoListMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\TodoListMain.Designer.cs">
-      <DependentUpon>TodoListMain.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -116,27 +74,6 @@
     </Compile>
     <EmbeddedResource Include="Views\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\Dashboard_Form.resx">
-      <DependentUpon>Dashboard_Form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\EventMain.resx">
-      <DependentUpon>EventMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\NoteLibraryMain.resx">
-      <DependentUpon>NoteLibraryMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\profile_Form.resx">
-      <DependentUpon>profile_Form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\Settings_Form.resx">
-      <DependentUpon>Settings_Form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\TimerMain.resx">
-      <DependentUpon>TimerMain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Views\TodoListMain.resx">
-      <DependentUpon>TodoListMain.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

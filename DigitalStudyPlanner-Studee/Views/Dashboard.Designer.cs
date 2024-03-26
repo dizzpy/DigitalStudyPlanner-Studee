@@ -60,7 +60,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(302, 696);
+            this.panel1.Size = new System.Drawing.Size(302, 681);
             this.panel1.TabIndex = 0;
             // 
             // panel5
@@ -69,7 +69,7 @@
             this.panel5.Controls.Add(this.btn_setting);
             this.panel5.Controls.Add(this.btn_profile);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(0, 520);
+            this.panel5.Location = new System.Drawing.Point(0, 505);
             this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(302, 176);
@@ -297,24 +297,24 @@
             // label_goodMorning
             // 
             this.label_goodMorning.AutoSize = true;
-            this.label_goodMorning.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_goodMorning.Font = new System.Drawing.Font("Poppins Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_goodMorning.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
-            this.label_goodMorning.Location = new System.Drawing.Point(29, 67);
+            this.label_goodMorning.Location = new System.Drawing.Point(29, 63);
             this.label_goodMorning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_goodMorning.Name = "label_goodMorning";
-            this.label_goodMorning.Size = new System.Drawing.Size(156, 24);
+            this.label_goodMorning.Size = new System.Drawing.Size(175, 34);
             this.label_goodMorning.TabIndex = 2;
             this.label_goodMorning.Text = "Good Morning !";
             // 
             // label_hello
             // 
             this.label_hello.AutoSize = true;
-            this.label_hello.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_hello.Font = new System.Drawing.Font("Poppins SemiBold", 29.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_hello.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(68)))), ((int)(((byte)(76)))));
-            this.label_hello.Location = new System.Drawing.Point(20, 14);
+            this.label_hello.Location = new System.Drawing.Point(21, 7);
             this.label_hello.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label_hello.Name = "label_hello";
-            this.label_hello.Size = new System.Drawing.Size(242, 44);
+            this.label_hello.Size = new System.Drawing.Size(264, 68);
             this.label_hello.TabIndex = 1;
             this.label_hello.Text = "Hello Dizzpy";
             // 
@@ -325,7 +325,7 @@
             this.panel4.Location = new System.Drawing.Point(302, 0);
             this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(974, 696);
+            this.panel4.Size = new System.Drawing.Size(962, 681);
             this.panel4.TabIndex = 1;
             // 
             // Dashboard
@@ -333,7 +333,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1276, 696);
+            this.ClientSize = new System.Drawing.Size(1264, 681);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
